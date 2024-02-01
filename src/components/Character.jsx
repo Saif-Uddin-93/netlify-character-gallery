@@ -1,5 +1,9 @@
-function Character(){
+function Character(props){
     return(
-        <div>This is Character component</div>
+        <div>
+            <h2>{props.name}</h2>
+        </div>
     )
 }
+
+export default Character;
