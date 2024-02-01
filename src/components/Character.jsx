@@ -1,8 +1,8 @@
-function Character({name, img, birth, death, race, realm, spouse}){
+function Character({name, imgUrl, birth, death, race, realm, spouse}){
     return(
         <div>
             <h2>{name}</h2>
-            <img src={img} alt={name} />
+            <img src={imgUrl} alt={name} />
             <ul>
                 <li>Date of Birth: {birth}</li>
                 <li>Date of Death: {death}</li>
