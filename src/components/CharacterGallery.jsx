@@ -8,7 +8,14 @@ function CharacterGallery(){
             {characterData.map(
                 (character)=> <Character 
                     key={character.id}
-                    name={character.name}
+                    {...character}
+                    // name={character.name}
+                    // img={character.imgUrl}
+                    // birth={character.birth}
+                    // dod={character.death}
+                    // race={character.race}
+                    // realm={character.realm}
+                    // spouse={character.spouse}
                 />
             )}
         </div>
